@@ -1,0 +1,1727 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="canonical" href="https://pnp.github.io/generator-teams/releases/release-notes/">
+      
+      <link rel="icon" href="../../images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-7.3.6">
+    
+    
+      
+        <title>Release notes - Yo Teams - Microsoft Teams Apps generator</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.a57b2b03.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.3f5d1f46.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+    
+      
+
+  
+
+
+  
+
+  
+
+
+  <script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-209929913-1","auto"),ga("set","anonymizeIp",!0),ga("send","pageview"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){var e;this.value&&(e=document.location.pathname,ga("send","pageview",e+"?q="+this.value))}),"undefined"!=typeof location$&&location$.subscribe(function(e){ga("send","pageview",e.pathname)})})</script>
+  <script async src="https://www.google-analytics.com/analytics.js"></script>
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="">
+  
+    
+    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+      <script>var palette=__get("__palette");if(null!==palette&&"object"==typeof palette.color)for(var key in palette.color)document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#release-notes" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Yo Teams - Microsoft Teams Apps generator" class="md-header__button md-logo" aria-label="Yo Teams - Microsoft Teams Apps generator" data-md-component="logo">
+      
+  <img src="../../images/parker-teams-300.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Yo Teams - Microsoft Teams Apps generator
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Release notes
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        
+<a href="https://github.com/pnp/generator-teams/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../user-guide/setup-tenant/" class="md-tabs__link">
+        User guide
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../concepts/ngrok/" class="md-tabs__link">
+        Concepts
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../tutorials/build-your-first-microsoft-teams-app/" class="md-tabs__link">
+        Tutorials
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../releases/" class="md-tabs__link md-tabs__link--active">
+        Releases
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../contributing/contribution-guidelines/" class="md-tabs__link">
+        Contributing
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../about/why-generator/" class="md-tabs__link">
+        About
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Yo Teams - Microsoft Teams Apps generator" class="md-nav__button md-logo" aria-label="Yo Teams - Microsoft Teams Apps generator" data-md-component="logo">
+      
+  <img src="../../images/parker-teams-300.png" alt="logo">
+
+    </a>
+    Yo Teams - Microsoft Teams Apps generator
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/pnp/generator-teams/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          User guide
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="User guide" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          User guide
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/setup-tenant/" class="md-nav__link">
+        Setup a developer tenant
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/setup-machine/" class="md-nav__link">
+        Setup your developer environment
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/deploy-to-teams/" class="md-nav__link">
+        Deploy to teams
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/upgrading-projects/" class="md-nav__link">
+        Upgrading projects
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/vscode/" class="md-nav__link">
+        Debugging
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/codespaces/" class="md-nav__link">
+        Using GitHub code spaces
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/using-multiple-manifests/" class="md-nav__link">
+        Using multiple manifests
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Concepts
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Concepts" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Concepts
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concepts/ngrok/" class="md-nav__link">
+        Tunneling
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concepts/project-structure/" class="md-nav__link">
+        Project structure
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Tutorials
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Tutorials" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Tutorials
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/build-your-first-microsoft-teams-app/" class="md-nav__link">
+        Your first Microsoft Teams App
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/build-a-sharepoint-online-provider-hosted-web-part/" class="md-nav__link">
+        Build a SharePoint Online Provider hosted web parts
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/build-a-connector-for-microsoft-teams/" class="md-nav__link">
+        Build a connector for Microsoft Teams
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/build-a-tab-with-sso-support/" class="md-nav__link">
+        Build a tab with SSO
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Releases
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Releases" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Releases
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../releases/" class="md-nav__link">
+        Releases
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Release notes
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Release notes
+      </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#yoteams-build-core-v130" class="md-nav__link">
+    yoteams-build-core v1.3.0
+  </a>
+  
+    <nav class="md-nav" aria-label="yoteams-build-core v1.3.0">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changes" class="md-nav__link">
+    Changes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#generator-teams-v330" class="md-nav__link">
+    generator-teams v3.3.0
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#yoteams-deploy-v101" class="md-nav__link">
+    yoteams-deploy v1.0.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#release-300" class="md-nav__link">
+    Release 3.0.0
+  </a>
+  
+    <nav class="md-nav" aria-label="Release 3.0.0">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#changes_1" class="md-nav__link">
+    Changes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#added_1" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-upgrade-an-existing-project" class="md-nav__link">
+    How to upgrade an existing project
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-install" class="md-nav__link">
+    How to install
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#release-2120" class="md-nav__link">
+    Release 2.12.0
+  </a>
+  
+    <nav class="md-nav" aria-label="Release 2.12.0">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#changes_2" class="md-nav__link">
+    Changes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#added_2" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-upgrade-an-existing-project_1" class="md-nav__link">
+    How to upgrade an existing project
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-install_1" class="md-nav__link">
+    How to install
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#release-2111" class="md-nav__link">
+    Release 2.11.1
+  </a>
+  
+    <nav class="md-nav" aria-label="Release 2.11.1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fixes" class="md-nav__link">
+    Fixes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-install_2" class="md-nav__link">
+    How to install
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#release-2110" class="md-nav__link">
+    Release 2.11.0
+  </a>
+  
+    <nav class="md-nav" aria-label="Release 2.11.0">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#updates-and-changes" class="md-nav__link">
+    Updates and changes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-install_3" class="md-nav__link">
+    How to install
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#release-2100" class="md-nav__link">
+    Release 2.10.0
+  </a>
+  
+    <nav class="md-nav" aria-label="Release 2.10.0">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#updates-and-changes_1" class="md-nav__link">
+    Updates and changes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixes_1" class="md-nav__link">
+    Fixes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-install_4" class="md-nav__link">
+    How to install
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          Contributing
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Contributing" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Contributing
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contributing/contribution-guidelines/" class="md-nav__link">
+        Guidelines
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contributing/getting-started/" class="md-nav__link">
+        Getting started
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7">
+          About
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="About" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          About
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/why-generator/" class="md-nav__link">
+        Why this generator
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/telemetry/" class="md-nav__link">
+        Telemetry
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/license/" class="md-nav__link">
+        License
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#yoteams-build-core-v130" class="md-nav__link">
+    yoteams-build-core v1.3.0
+  </a>
+  
+    <nav class="md-nav" aria-label="yoteams-build-core v1.3.0">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changes" class="md-nav__link">
+    Changes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#generator-teams-v330" class="md-nav__link">
+    generator-teams v3.3.0
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#yoteams-deploy-v101" class="md-nav__link">
+    yoteams-deploy v1.0.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#release-300" class="md-nav__link">
+    Release 3.0.0
+  </a>
+  
+    <nav class="md-nav" aria-label="Release 3.0.0">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#changes_1" class="md-nav__link">
+    Changes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#added_1" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-upgrade-an-existing-project" class="md-nav__link">
+    How to upgrade an existing project
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-install" class="md-nav__link">
+    How to install
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#release-2120" class="md-nav__link">
+    Release 2.12.0
+  </a>
+  
+    <nav class="md-nav" aria-label="Release 2.12.0">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#changes_2" class="md-nav__link">
+    Changes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#added_2" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-upgrade-an-existing-project_1" class="md-nav__link">
+    How to upgrade an existing project
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-install_1" class="md-nav__link">
+    How to install
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#release-2111" class="md-nav__link">
+    Release 2.11.1
+  </a>
+  
+    <nav class="md-nav" aria-label="Release 2.11.1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fixes" class="md-nav__link">
+    Fixes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-install_2" class="md-nav__link">
+    How to install
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#release-2110" class="md-nav__link">
+    Release 2.11.0
+  </a>
+  
+    <nav class="md-nav" aria-label="Release 2.11.0">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#updates-and-changes" class="md-nav__link">
+    Updates and changes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-install_3" class="md-nav__link">
+    How to install
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#release-2100" class="md-nav__link">
+    Release 2.10.0
+  </a>
+  
+    <nav class="md-nav" aria-label="Release 2.10.0">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#updates-and-changes_1" class="md-nav__link">
+    Updates and changes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixes_1" class="md-nav__link">
+    Fixes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-install_4" class="md-nav__link">
+    How to install
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/pnp/generator-teams/tree/master/docs/docs/releases/release-notes.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="release-notes">Release notes<a class="headerlink" href="#release-notes" title="Permanent link">&para;</a></h1>
+<h2 id="yoteams-build-core-v130">yoteams-build-core <a href="https://github.com/pnp/generator-teams/releases/tag/yoteams-build-core%401.3.0-preview2">v1.3.0</a><a class="headerlink" href="#yoteams-build-core-v130" title="Permanent link">&para;</a></h2>
+<h4 id="added">Added<a class="headerlink" href="#added" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Support for Teams manifest schema 1.11 <a href="https://github.com/pnp/generator-teams/issues/234">#234</a></li>
+</ul>
+<h4 id="changes">Changes<a class="headerlink" href="#changes" title="Permanent link">&para;</a></h4>
+<ul>
+<li>serve commands will now use Webpack dev server to improve client side build and also allows for live-reloading (PR <a href="https://github.com/pnp/generator-teams/pull/233">#233</a> by s-KaiNet)</li>
+</ul>
+<h2 id="generator-teams-v330">generator-teams <a href="https://github.com/stephanbisser/generator-teams/releases/tag/generator-teams%403.3.0-preview2">v3.3.0</a><a class="headerlink" href="#generator-teams-v330" title="Permanent link">&para;</a></h2>
+<h2 id="yoteams-deploy-v101">yoteams-deploy <a href="https://github.com/stephanbisser/generator-teams/releases/tag/yoteams-deploy%401.0.1">v1.0.1</a><a class="headerlink" href="#yoteams-deploy-v101" title="Permanent link">&para;</a></h2>
+<h2 id="release-300">Release 3.0.0<a class="headerlink" href="#release-300" title="Permanent link">&para;</a></h2>
+<p><em>Date released: 2021-02-07</em></p>
+<p>This is a new major version of Yo Teams that contains a multitude of fixes and updates but most significantly it has a new structure of the scaffolded projects and all the default Gulp tasks are moved into a separate package <code>yoteams-build-core</code>.</p>
+<h5 id="changes_1">Changes<a class="headerlink" href="#changes_1" title="Permanent link">&para;</a></h5>
+<ul>
+<li>Repository reorganized. <code>generator-teams</code> is moved into <code>packages/generator-teams</code></li>
+<li>New projects can only be scaffolded using manifest version 1.8 or later</li>
+<li>Projects scaffolded with previous versions can not be updated</li>
+<li>Migrated from TSLint to ESLint</li>
+<li>Upgraded to use <code>axios@0.21.1</code> due to security issue</li>
+<li>Upgraded to use <code>botbuilder@4.11.1</code> or later due to security issue in <code>axios</code></li>
+<li><code>generator-teams</code> tests rebuilt</li>
+<li>Changed default answers of some questions to opt-out (false) of features (SharePoint Web Part, Application Insights support, Unit Testing and more) to make default solution simpler</li>
+<li>Upgraded to Teams JavaScript SDK v1.9</li>
+<li>Refactored unit testing with Jest</li>
+<li>Cleaned up <code>webpack.config.js</code> to not enforce specific patterns</li>
+</ul>
+<h5 id="added_1">Added<a class="headerlink" href="#added_1" title="Permanent link">&para;</a></h5>
+<ul>
+<li>Added new dedicated build package for Gulp tasks (<code>packages/yoteams-build-core</code>)</li>
+<li>Added a "Quick scaffolding" option</li>
+<li>Added support for Teams schema v1.9 (1.8 still default, as 1.9 not yet supported by clients)</li>
+</ul>
+<h4 id="fixed">Fixed<a class="headerlink" href="#fixed" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Allowed the usage of the Office Guid (<code>00000003-0000-0ff1-ce00-000000000000</code>) in Guid validation of SSO Tabs (#171)</li>
+<li>Fixed an issue where the React npm packages was not correctly added to <code>package.json</code> (#168)</li>
+<li>Fixed issue where React state was not available in Teams JS SDK callbacks</li>
+<li>Fixed an issue in the sample Connector implementation</li>
+</ul>
+<h3 id="how-to-upgrade-an-existing-project">How to upgrade an existing project<a class="headerlink" href="#how-to-upgrade-an-existing-project" title="Permanent link">&para;</a></h3>
+<p>Upgrading projects from earlier versions is not supported in this version</p>
+<h3 id="how-to-install">How to install<a class="headerlink" href="#how-to-install" title="Permanent link">&para;</a></h3>
+<p>To get the latest version of the Microsoft Teams Apps generator use the following npm command:</p>
+<div class="highlight"><pre><span></span><code>npm install generator-teams --global
+</code></pre></div>
+<p>And to install this version specifically use:</p>
+<div class="highlight"><pre><span></span><code>npm install generator-teams@3.0.0 --global
+</code></pre></div>
+<h2 id="release-2120">Release 2.12.0<a class="headerlink" href="#release-2120" title="Permanent link">&para;</a></h2>
+<p><em>Date released: 2020-03-05</em></p>
+<p>This release is a breaking update due to the migration to the updated Microsoft
+Bot Framework 4.7 as well as using a new client side component framework - Microsoft Fluent UI React.</p>
+<h4 id="changes_2">Changes<a class="headerlink" href="#changes_2" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Moved to <code>@fluentui/react</code> for user experience, replacing <code>msteams-ui-components-react</code>. See TODO for more information and upgrade details (#84)</li>
+<li>Refactored <code>package.json</code> so it properly uses <code>dependencies</code> and <code>devDependencies</code>.</li>
+<li>Updated <code>.deployment</code> file to properly work with the new <code>devDependencies</code> (#93)</li>
+<li>Updated to Teams SDK <code>1.6.0</code> (#96)</li>
+<li>Migrated to <code>botbuilder@4.7.1</code> (#89)</li>
+<li>Default bot implementation are now extending <code>TeamsActivityHandler</code></li>
+<li>Removed image from bot welcome card</li>
+</ul>
+<h4 id="added_2">Added<a class="headerlink" href="#added_2" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Added compression support for HTTP requests</li>
+<li>Integration tests first version, <code>npm run test-integration</code> (#103)</li>
+</ul>
+<p>For full details see the <a href="https://github.com/pnp/generator-teams/blob/50f553d3a8bfd0c75af966e8060f48f145d73385/CHANGELOG.md">change log</a>.</p>
+<h3 id="how-to-upgrade-an-existing-project_1">How to upgrade an existing project<a class="headerlink" href="#how-to-upgrade-an-existing-project_1" title="Permanent link">&para;</a></h3>
+<p>Due to breaking changes in this project cannot be upgraded by using the upgrade option in the generator.</p>
+<p>It is recommended that you create a new project with the <code>2.12+</code> generator and manually move/copy your solution over.</p>
+<ul>
+<li><strong>manifest.json</strong> &amp;&amp; <strong>.env</strong> - can be copied over as is</li>
+<li><strong>scripts/</strong>* - all React pages has to be updated to use the new <code>@fluentui/react</code> component</li>
+<li><strong>bots</strong> - bots has to changed so that they extend <a href="https://github.com/wictorwilen/express-msteams-host"><code>TeamsActivityHandler</code></a></li>
+</ul>
+<h3 id="how-to-install_1">How to install<a class="headerlink" href="#how-to-install_1" title="Permanent link">&para;</a></h3>
+<p>To get the latest version of the Microsoft Teams Apps generator use the following npm command:</p>
+<div class="highlight"><pre><span></span><code>npm install generator-teams --global
+</code></pre></div>
+<p>And to install this version specifically use:</p>
+<div class="highlight"><pre><span></span><code>npm install generator-teams@2.12.0 --global
+</code></pre></div>
+<h2 id="release-2111">Release 2.11.1<a class="headerlink" href="#release-2111" title="Permanent link">&para;</a></h2>
+<p><em>Date released: 2019-08-14</em></p>
+<p>This release is a bug fix for 2.11.0</p>
+<h4 id="fixes">Fixes<a class="headerlink" href="#fixes" title="Permanent link">&para;</a></h4>
+<p>The 2.11.1 includes the following fixes:</p>
+<ul>
+<li>Fixed an issue where invalid localization info was written to the manifest (<a href="https://github.com/pnp/generator-teams/issues/81">#81</a>)</li>
+<li>Fixed some issues with typings for the <code>inquirer</code> package</li>
+</ul>
+<p>For full details see the <a href="https://github.com/pnp/generator-teams/blob/50f553d3a8bfd0c75af966e8060f48f145d73385/CHANGELOG.md">change log</a>.</p>
+<h3 id="how-to-install_2">How to install<a class="headerlink" href="#how-to-install_2" title="Permanent link">&para;</a></h3>
+<p>To get the latest version of the Microsoft Teams Apps generator use the following npm command:</p>
+<div class="highlight"><pre><span></span><code>npm install generator-teams --global
+</code></pre></div>
+<p>And to install this version specifically use:</p>
+<div class="highlight"><pre><span></span><code>npm install generator-teams@2.11.1 --global
+</code></pre></div>
+<h2 id="release-2110">Release 2.11.0<a class="headerlink" href="#release-2110" title="Permanent link">&para;</a></h2>
+<p><em>Date released: 2019-08-06</em></p>
+<blockquote>
+<p>2.11.0 has been deprecated - please install 2.11.1</p>
+</blockquote>
+<p>This release introduces one major feature - the option of including localization to your Microsoft Teams App, which requires manifest version 1.5 and higher. Initial support for <a href="./Upgrading-projects">upgrading projects</a> created by earlier versions of the generator has also been introduced. Note that upgrading projects will only work for projects created generator 2.9 and later. </p>
+<h4 id="updates-and-changes">Updates and changes<a class="headerlink" href="#updates-and-changes" title="Permanent link">&para;</a></h4>
+<p>The 2.11.0 release introduces these new features and changes</p>
+<ul>
+<li>Added the support for localization of apps (manifest version 1.5+)</li>
+<li>Added generator version in <code>.yo-rc.json</code> - to be used when upgrading core files</li>
+<li>Added support for upgrading of core build files</li>
+</ul>
+<p>For full details see the <a href="https://github.com/pnp/generator-teams/blob/2a938465d6a0a2cad92eec065ca9d4f8be84455b/CHANGELOG.md">change log</a>.</p>
+<h3 id="how-to-install_3">How to install<a class="headerlink" href="#how-to-install_3" title="Permanent link">&para;</a></h3>
+<p>To get the latest version of the Microsoft Teams Apps generator use the following npm command:</p>
+<div class="highlight"><pre><span></span><code>npm install generator-teams --global
+</code></pre></div>
+<p>And to install this version specifically use:</p>
+<div class="highlight"><pre><span></span><code>npm install generator-teams@2.11.0 --global
+</code></pre></div>
+<h2 id="release-2100">Release 2.10.0<a class="headerlink" href="#release-2100" title="Permanent link">&para;</a></h2>
+<p><em>Date released: 2019-07-18</em></p>
+<p>This summer release adds capabilities to add additional Tabs to an existing project as well as adding a static (personal) tab, as well as the configurable (teams/channel) ones. Also some of the core packages of the generated solution was updated due to npm security warnings.</p>
+<h4 id="updates-and-changes_1">Updates and changes<a class="headerlink" href="#updates-and-changes_1" title="Permanent link">&para;</a></h4>
+<p>The 2.10.0 release introduces these new features and changes</p>
+<ul>
+<li>Added the option to choose between a <em>configurable</em> and <em>static</em> tab</li>
+<li>Added the option of adding additional tabs when running the generator over an existing solution</li>
+<li>Renamed argument for nodemon to use <code>--inspect</code> instead of <code>--debug</code> due to node.js deprecation warning <strong>DEP0062</strong></li>
+<li>Moved from <code>guid</code> (deprecated) npm package to <code>uuid</code>, <code>uuid-validate</code> and a custom empty guid</li>
+<li>Updated <code>gulp-inject</code> version</li>
+</ul>
+<h3 id="fixes_1">Fixes<a class="headerlink" href="#fixes_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Fixed invalid payload error in the bot welcome card</li>
+</ul>
+<p>For full details see the <a href="https://github.com/pnp/generator-teams/blob/a373629f98b398553c51d68ad135d7fd5447a540/CHANGELOG.md">change log</a>.</p>
+<h3 id="how-to-install_4">How to install<a class="headerlink" href="#how-to-install_4" title="Permanent link">&para;</a></h3>
+<p>To get the latest version of the Microsoft Teams Apps generator use the following npm command:</p>
+<div class="highlight"><pre><span></span><code>npm install generator-teams --global
+</code></pre></div>
+<p>And to install this version specifically use:</p>
+<div class="highlight"><pre><span></span><code>npm install generator-teams@2.10.0 --global
+</code></pre></div>
+<h1 id="release-291">Release 2.9.1<a class="headerlink" href="#release-291" title="Permanent link">&para;</a></h1>
+<p><em>Date released: 2019-06-15</em></p>
+<p>Hot fix for version 2.9.0. See 2.9.0 release notes for all details</p>
+<h4 id="updates-and-changes_2">Updates and changes<a class="headerlink" href="#updates-and-changes_2" title="Permanent link">&para;</a></h4>
+<p>The 2.9.1 is a hotfix for 2.9.0, due to a postinstall command causing issues.</p>
+<h3 id="fixes_2">Fixes<a class="headerlink" href="#fixes_2" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Removed <code>postinstall</code> npm command</li>
+</ul>
+<p>For full details see the <a href="https://github.com/pnp/generator-teams/blob/64d9d44e3da10055d660efb8993b9966ae41e214/CHANGELOG.md">change log</a>.</p>
+<h3 id="how-to-install_5">How to install<a class="headerlink" href="#how-to-install_5" title="Permanent link">&para;</a></h3>
+<p>To get the latest version of the Microsoft Teams Apps generator use the following npm command:</p>
+<div class="highlight"><pre><span></span><code>npm install generator-teams --global
+</code></pre></div>
+<p>And to install this version specifically use:</p>
+<div class="highlight"><pre><span></span><code>npm install generator-teams@2.9.1 --global
+</code></pre></div>
+<h1 id="release-290">Release 2.9.0<a class="headerlink" href="#release-290" title="Permanent link">&para;</a></h1>
+<p><em>Date released: 2019-06-14</em></p>
+<blockquote>
+<p>2.9.0 has been deprecated - please install 2.9.1</p>
+</blockquote>
+<p>This release was focused on bringing the generator up to Microsoft Teams manifest version 1.5 and add support for the latest Microsoft Teams JavaScript SDK. </p>
+<p>It also contains a refactored build pipeline (Gulp tasks) in order to improve stability and performance, as well as to prepare for future versions of the generator where we plan to include an upgrade path for existing projects. Now each component (client side, server side, CSS, manifest etc) are built independently and incremental builds are only done when changed, while using <code>gulp serve</code> or <code>gulp ngrok-serve</code>.</p>
+<p>The default landing page, as well as the privacy and terms of use page has received a standardized branding (thanks Stefan Bauer).</p>
+<h4 id="updates-and-changes_3">Updates and changes<a class="headerlink" href="#updates-and-changes_3" title="Permanent link">&para;</a></h4>
+<p>The 2.9.0 release introduces these new features</p>
+<ul>
+<li>Added support for manifest version 1.5, new default</li>
+<li>Added suppot for optionally adding Microsoft Partner Id. More info at https://aka.ms/partner </li>
+<li>Added files support option for bots (schema version 1.4+)</li>
+<li>Now persists settings for using unit testing, application insights and the library name</li>
+<li>Added default logging of "msteams" in the <code>.env</code> file</li>
+<li>Added support for SCSS in the build pipeline</li>
+<li>Added a default styling to the start page</li>
+<li>Added an option for Tabs to specify scope; <em>groupcaht</em> or <em>team</em></li>
+<li>Added a build option called <code>linting</code> to be able to opt-out of Typescript linting. Use <code>gulp serve --no-linting</code> for faster builds.</li>
+<li>Updated the <code>@microsoft/teams-js</code> package to version <code>1.4.2</code></li>
+<li>Added strict handling of inquirer answers in the main generator</li>
+<li>Refactored the gulp build system into <code>gulpfile.js</code> and <code>gulpfile.config.js</code></li>
+<li>Refactored gulp tasks and added new gulp tasks to support independent builds of client side and server side code</li>
+<li>The <code>watch</code> gulp tasks now only rebuilds the parts that has changed (server side code, client side code, styles or static files) which improves incremental build times</li>
+<li>Updated <code>gulpfile.js</code> to use the <code>$schema</code> defined in the manifest file for validation and the <code>SCHEMAS</code> object only as backup</li>
+<li>Clarified some questions that the users is adding Message Extension commands, rather than new message extensions</li>
+</ul>
+<p>For full details see the <a href="https://github.com/pnp/generator-teams/blob/52907a4e2cae0fc8e9c1bf873f6891f878a20e6d/CHANGELOG.md">change log</a>.</p>
+<h3 id="how-to-install_6">How to install<a class="headerlink" href="#how-to-install_6" title="Permanent link">&para;</a></h3>
+<p>To get the latest version of the Microsoft Teams Apps generator use the following npm command:</p>
+<div class="highlight"><pre><span></span><code>npm install generator-teams --global
+</code></pre></div>
+<p>And to install this version specifically use:</p>
+<div class="highlight"><pre><span></span><code>npm install generator-teams@2.9.0 --global
+</code></pre></div>
+<h2 id="release-280">Release 2.8.0<a class="headerlink" href="#release-280" title="Permanent link">&para;</a></h2>
+<p><em>Date released: 2019-05-20</em></p>
+<h4 id="updates-and-changes_4">Updates and changes<a class="headerlink" href="#updates-and-changes_4" title="Permanent link">&para;</a></h4>
+<p>The 2.8.0 release introduces these new features</p>
+<ul>
+<li>Added support for manifest version 1.4, new default</li>
+<li>Added the option to choose between a search based or action based messaging extension (only available for <code>1.4</code>+ manfiests)</li>
+<li>Added support for action based Message Extensions, can now choose from multiple input types, multiple outputs as well as locations for the actions (only available for <code>devPreview</code> manfiests).</li>
+<li>Added an option to not include configuration for messaging extensions. Note, only action messaging extension can have the config option.</li>
+<li>Added support for publishing a Tab as a SharePoint Web Part or Full Page Application (requires <code>v1.4</code>+)</li>
+</ul>
+<p>For full details see the <a href="https://github.com/pnp/generator-teams/blob/7c45f921ef44af81a909295724a4dd387f4bc1e1/CHANGELOG.md">change log</a>.</p>
+<h3 id="how-to-install_7">How to install<a class="headerlink" href="#how-to-install_7" title="Permanent link">&para;</a></h3>
+<p>To get the latest version of the Microsoft Teams Apps generator use the following npm command:</p>
+<div class="highlight"><pre><span></span><code>npm install generator-teams --global
+</code></pre></div>
+<p>And to install this version specifically use:</p>
+<div class="highlight"><pre><span></span><code>npm install generator-teams@2.8.0 --global
+</code></pre></div>
+<h2 id="release-271anchors-in-markdown">Release 2.7.1(#anchors-in-markdown)<a class="headerlink" href="#release-271anchors-in-markdown" title="Permanent link">&para;</a></h2>
+<p><em>Date released: 2019-05-07</em></p>
+<h4 id="updates-and-changes_5">Updates and changes<a class="headerlink" href="#updates-and-changes_5" title="Permanent link">&para;</a></h4>
+<p>The 2.7.1 release introduces these new features</p>
+<ul>
+<li><a href="./Manifest-Versions">Schema upgrades</a> - allows you to re-run the generator to upgrade from one manifest version to a newer</li>
+<li>Native <a href="https://ngrok.com/">ngrok</a> support that allows you to use random or reserved public URLs when building and testing your applications. Use the new <code>gulp ngrok-serve</code> to build the manifest and launch the application using ngrok.</li>
+<li>Added support for Application Insights</li>
+<li>When using <code>devPreview</code> manifest version you will now have the option of adding Calling support to your bot</li>
+</ul>
+<p>For full details see the <a href="https://github.com/pnp/generator-teams/blob/7c45f921ef44af81a909295724a4dd387f4bc1e1/CHANGELOG.md">change log</a>.</p>
+<h3 id="how-to-install_8">How to install<a class="headerlink" href="#how-to-install_8" title="Permanent link">&para;</a></h3>
+<p>To get the latest version of the Microsoft Teams Apps generator use the following npm command:</p>
+<div class="highlight"><pre><span></span><code>npm install generator-teams --global
+</code></pre></div>
+<p>And to install this version specifically use:</p>
+<div class="highlight"><pre><span></span><code>npm install generator-teams@2.7.1 --global
+</code></pre></div>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../releases/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Releases" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Releases
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../../contributing/contribution-guidelines/" class="md-footer__link md-footer__link--next" aria-label="Next: Guidelines" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Guidelines
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        
+          Made with
+          <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+            Material for MkDocs
+          </a>
+        
+        
+      </div>
+      
+  <div class="md-footer-social">
+    
+      
+      
+        
+        
+      
+      <a href="https://twitter.com/m365pnp" target="_blank" rel="noopener" title="twitter.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+      </a>
+    
+      
+      
+        
+        
+      
+      <a href="http://aka.ms/sppnp-videos" target="_blank" rel="noopener" title="aka.ms" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+      </a>
+    
+      
+      
+        
+        
+      
+      <a href="https://aka.ms/sppnp" target="_blank" rel="noopener" title="aka.ms" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"/></svg>
+      </a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.instant", "search.share"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.fcfe8b6d.min.js", "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.b1047164.min.js"></script>
+      
+    
+  </body>
+</html>
